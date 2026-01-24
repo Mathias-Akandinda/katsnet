@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FastNetUG | Premium WiFi Solutions</title>
+    <title>TEMBO NET|Excellent WiFi Solutions</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome for icons -->
@@ -15,82 +15,103 @@
     <!-- Custom CSS -->
     <link href="css/mainstyles.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
+    <style>
+        /* Logo styling to ensure proper fit */
+        .navbar-brand img {
+            max-height: 100px;
+            width: auto;
+        }
+        .slider-container {
+    position: relative;
+    width: 100%;
+}
+
+.background-slider {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    animation: slide 40s linear infinite;
+}
+
+.background-slider img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+@keyframes slide {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-300%); }
+}
+
+   
+        </style>
 </head>
 
 <body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="index.php">
-                <img src="images/FastNetUGbg.png" alt="FastNetUG Logo" class="logo-text">
-                <!-- <span class="logo-text">FastNetUG</span> <i class="fas fa-wifi wifi-animation"></i> -->
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Home</a>
-                    </li>
-                    <!-- <li class="nav-item dropdown">
-                        <a class="nav-link" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown">
-                            Services <i class="fas fa-caret-down"></i>
-                        </a>
+   <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white shadow-sm">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.php">
+            <img src="images/Tembonet.png" alt="TEMBONET">
+            <span class="ms-2 fw-bold" style="font-size: 2.4rem;">TemboNet</span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="pages/coverage.php">Our Coverage</a></li>
+                <li class="nav-item"><a class="nav-link" href="pages/about.php">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="pages/contact.php">Contact</a></li>
+                 <li class="nav-item dropdown"> <a class="nav-link active" href="#" id="servicesDropdown" 
+                 role="button" data-bs-toggle="dropdown">Kats Group<i class="fas fa-caret-down"></i></a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="pages/packages.php">WiFi Packages</a></li>
-                            <li><a class="dropdown-item" href="pages/installation.php">Installation Services</a></li>
-                            <li><a class="dropdown-item" href="pages/support.php">Technical Support</a></li>
+                            <li><a class="dropdown-item active" href="pages/Indextembo.php">Tembo Net</a></li>
+                            <li><a class="dropdown-item" href="airticketbooking.php">Kats Enterprise</a></li>
+                            <li><a class="dropdown-item" href="consultation.php">Home of kitchen Ware</a></li>
+                            <li><a class="dropdown-item" href="pages/safetripindex.php">SafeTrip</a></li>
                         </ul>
-                    </li> -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="pages/coverage.php">Coverage Areas</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="pages/about.php">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="pages/contact.php">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="pages/reviews.php">Reviews</a>
-                    </li>
-                </ul>
-            </div>
+                <li class="nav-item"><a class="nav-link" href="pages/reviews.php">Reviews</a></li>
+            </ul>
         </div>
-    </nav>
+    </div>
+</nav>
 
-    <!-- Hero Section -->
-    <header class="hero-section">
+   <!-- Hero Section -->
+<header class="hero-section mt-5">
 
-        <!-- Sliding background images -->
+    <!-- Slider Container (independent from navbar) -->
+    <div class="slider-container position-relative overflow-hidden" style="height: 80vh;">
         <div class="background-slider">
-            <img src="images/testim1.avif" alt="">
-            <img src="images/testim3.avif" alt="">
-            <img src="images/testim2.avif" alt="">
-            <img src="images/testim5.avif" alt="">
-            <!-- Repeat for smooth looping -->
-            <img src="images/testim4.avif" alt="">
-            <img src="images/testim5.avif" alt="">
-            <img src="images/testim4.avif" alt="">
+            <img src="images/Tembohome.png" alt="">
+            <img src="images/page1.png" alt="">
+            <img src="images/page2.png" alt="">
+            <img src="images/Tembohome.png" alt="">
+         
         </div>
 
-        <div class="container h-100">
-            <div class="row h-100 align-items-center">
-                <div class="col-md-6" data-aos="zoom-in" duration="1000">
-                    <h1 class="hero-title">Seamless Connectivity for Every Need</h1>
-                    <p class="hero-text">Stay connected with fast, secure, and affordable WiFi plans tailored for student hostels, homes, and businesses across Uganda.</p>
-                    <div class="hero-buttons">
-                        <a href="#packages" class="btn btn-primary btn-lg">Buy Voucher</a>
-                        <a href="tel:0744766410" class="btn btn-primary btn-lg" style="background: transparent; border: 1px solid white;">
-                            <i class="fas fa-phone-alt me-2" style="color: #fff;"></i>Call Us Now
-                        </a>
-                    </div>
+        <!-- Hero Text on Top of Slider -->
+        <div class="container h-100 position-absolute top-0 start-0 end-0 d-flex align-items-center">
+            <div class="col-md-6" data-aos="zoom-in" duration="1000">
+                <h1 class="hero-title">Tap every connectivity daily </h1>
+                <p class="hero-text">Stay connected with fast, secure, and affordable WiFi plans.</p>
+                <div class="hero-buttons">
+                    <a href="#packages" class="btn btn-primary btn-lg">Buy Voucher</a>
+                    <a href="tel:0773134650" class="btn btn-primary btn-lg" 
+                       style="background: transparent; border: 1px solid white;">
+                        <i class="fas fa-phone-alt me-2" style="color: #fff;"></i>Call Us Now
+                    </a>
                 </div>
             </div>
         </div>
-
-    </header>
+    </div>
+</header>
 
     <!-- Packages Section -->
     <section id="packages" class="featured-properties-carousel">
@@ -104,7 +125,7 @@
                 <!-- Daily Package -->
                 <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
                     <div class="package-card">
-                        <h4>Daily Pass</h4>
+                        <h4>Daily Bundle</h4>
                         <div class="package-price">1,000 <small>UGX</small></div>
                         <ul class="list-unstyled">
                             <li><i class="fas fa-check text-success"></i> 24-hour unlimited access</li>
@@ -118,7 +139,7 @@
                 <!-- Weekly Package -->
                 <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
                     <div class="package-card">
-                        <h4>Weekly Plan</h4>
+                        <h4>Weekly Bundle</h4>
                         <div class="package-price">6,000 <small>UGX</small></div>
                         <ul class="list-unstyled">
                             <li><i class="fas fa-check text-success"></i> 7 days unlimited access</li>
@@ -133,8 +154,8 @@
                 <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
                     <div class="package-card featured">
                         <div class="badge bg-success position-absolute top-0 start-50 translate-middle">Most Popular</div>
-                        <h4>Monthly Plan</h4>
-                        <div class="package-price">20,000 <small>UGX</small></div>
+                        <h4>Monthly Bundle</h4>
+                        <div class="package-price">22,000 <small>UGX</small></div>
                         <ul class="list-unstyled">
                             <li><i class="fas fa-check text-success"></i> 30 days unlimited access</li>
                             <li><i class="fas fa-check text-success"></i> Up to 2 devices</li>
@@ -147,8 +168,8 @@
                 <!-- Semester Package -->
                 <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
                     <div class="package-card">
-                        <h4>Semester Plan</h4>
-                        <div class="package-price">50,000 <small>UGX</small></div>
+                        <h4>Silver Plan</h4>
+                        <div class="package-price">80,000 <small>UGX</small></div>
                         <ul class="list-unstyled">
                             <li><i class="fas fa-check text-success"></i> 105 days unlimited access</li>
                             <li><i class="fas fa-check text-success"></i> Up to 2 devices</li>
@@ -162,12 +183,12 @@
             <!-- Special Packages -->
             <div class="row mt-5">
                 <div class="section-header text-center text-black" data-aos="fade-up">
-                    <h3>special Packages</h3>
+                    <h3>Special Packages</h3>
                 </div>
                 <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
                     <div class="package-card">
                         <h4><i class="fas fa-users"></i> Family Bundle</h4>
-                        <div class="package-price">50,000 <small>UGX</small></div>
+                        <div class="package-price">97,000 <small>UGX</small></div>
                         <p class="text-muted">per month</p>
                         <ul class="list-unstyled">
                             <li><i class="fas fa-check text-success"></i> Up to 100 Mbps shared speed</li>
@@ -197,91 +218,7 @@
         </div>
     </section>
 
-    <!-- Services Section -->
-    <!-- <section id="services" class="services-section">
-        <div class="container">
-            <div class="section-header text-center" data-aos="fade-up">
-                <h2>Our WiFi Services</h2>
-                <p>Comprehensive internet solutions tailored to your connectivity needs</p>
-            </div>
-            <div class="row">
-                Home WiFi
-                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
-                    <div class="service-card">
-                        <div class="service-icon">
-                            <i class="fas fa-home"></i>
-                        </div>
-                        <h3>Home WiFi</h3>
-                        <p>Reliable high-speed internet for your home, perfect for streaming, gaming, and working from home.</p>
-                        <ul class="service-features">
-                            <li><i class="fas fa-check"></i> Up to 100 Mbps Speed</li>
-                            <li><i class="fas fa-check"></i> Unlimited Data</li>
-                            <li><i class="fas fa-check"></i> Multiple Device Support</li>
-                        </ul>
-                        <a href="pages/packages.php" class="btn btn-outline-primary">View Plans</a>
-                    </div>
-                </div>
-
-                Business WiFi
-                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
-                    <div class="service-card">
-                        <div class="service-icon">
-                            <i class="fas fa-building"></i>
-                        </div>
-                        <h3>Business WiFi</h3>
-                        <p>Enterprise-grade internet solutions with priority support and guaranteed uptime for your business.</p>
-                        <ul class="service-features">
-                            <li><i class="fas fa-check"></i> Dedicated Bandwidth</li>
-                            <li><i class="fas fa-check"></i> 24/7 Business Support</li>
-                            <li><i class="fas fa-check"></i> Custom Solutions</li>
-                        </ul>
-                        <a href="pages/business.php" class="btn btn-outline-primary">Learn More</a>
-                    </div>
-                </div>
-
-                Student WiFi
-                <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
-                    <div class="service-card">
-                        <div class="service-icon">
-                            <i class="fas fa-graduation-cap"></i>
-                        </div>
-                        <h3>Student WiFi</h3>
-                        <p>Affordable internet packages designed specifically for students and educational institutions.</p>
-                        <ul class="service-features">
-                            <li><i class="fas fa-check"></i> Student-Friendly Pricing</li>
-                            <li><i class="fas fa-check"></i> Educational Content Priority</li>
-                            <li><i class="fas fa-check"></i> Semester Packages</li>
-                        </ul>
-                        <a href="pages/student.php" class="btn btn-outline-primary">Explore Options</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
-    <!-- Network Stats -->
-    <!-- <section class="network-stats">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
-                    <span class="stat-number counter">2500</span>
-                    <p>Active Users</p>
-                </div>
-                <div class="col-md-3" data-aos="fade-up" data-aos-delay="200">
-                    <span class="stat-number counter">99.9</span>%
-                    <p>Network Uptime</p>
-                </div>
-                <div class="col-md-3" data-aos="fade-up" data-aos-delay="300">
-                    <span class="stat-number counter">50</span>+
-                    <p>Coverage Areas</p>
-                </div>
-                <div class="col-md-3" data-aos="fade-up" data-aos-delay="400">
-                    <span class="stat-number counter">24</span>/7
-                    <p>Customer Support</p>
-                </div>
-            </div>
-        </div>
-    </section> -->
+   
 
     <!-- Coverage Areas -->
     <section class="about-section">
@@ -291,7 +228,7 @@
                     <div class="coverage-map text-center">
                         <i class="fas fa-map-marked-alt" style="font-size: 5rem; margin-bottom: 20px;"></i>
                         <h3>Wide Coverage Across Kampala</h3>
-                        <p>Our network covers major areas including Nabisunsa, Banda, Ntinda, Kibuli, and surrounding areas.</p>
+                        <p>Our network covers major areas including Mutungo, Butabika, Kampala Road, Kasokosoko, Kito, and surrounding areas.</p>
                         <div class="row mt-4">
                             <div class="col-6">
                                 <h4>25+</h4>
@@ -306,7 +243,7 @@
                 </div>
                 <div class="col-lg-6 d-flex justify-content-center">
                     <div class="about-content text-center w-100 px-3 px-md-5">
-                        <h2>Why Choose FastNetUG?</h2>
+                        <h2>Why Choose Tembo Net?</h2>
                         <p style="text-align:justify;">We're Uganda's fastest-growing WiFi provider, committed to delivering reliable, high-speed internet access to students, families, and businesses across Kampala and beyond.</p>
                         <p style="text-align:justify;">Our network is backed by cutting-edge technology and round-the-clock support. With our 24/7 customer service team, you’ll get the fastest assistance whenever you need it — day or night.</p>
 
@@ -353,12 +290,12 @@
                                 <i class="fas fa-star"></i>
 
                             </div>
-                            <p class="testimonial-text">"FastNetUG saved my semester! Their WiFi is incredibly fast and reliable. I can stream lectures, download research papers, and video call my family without any interruptions."</p>
+                            <p class="testimonial-text">"Tembo Net is incredibly fast and reliable. I can stream videos, download research , and video call my family without any interruptions."</p>
                             <div class="testimonial-author">
-                                <img src="images/developer.jpg" alt="Student" class="rounded-circle">
+                                <img src="images/profile_pic.png" alt="Student" class="rounded-circle">
                                 <div class="author-info">
-                                    <h5>Student</h5>
-                                    <span>Kyambogo University</span>
+                                    <h5>Mukasa</h5>
+                                    <span>Black Street</span>
                                 </div>
                             </div>
                         </div>
@@ -372,9 +309,9 @@
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                             </div>
-                            <p class="testimonial-text">"As a family of five, we needed reliable internet for everyone. FastNetUG's family bundle gives us amazing speeds and their customer service is exceptional!"</p>
+                            <p class="testimonial-text">"As a family of five, we needed reliable internet for everyone. Tembo Net's family bundle gives us amazing speeds and their customer service is exceptional!"</p>
                             <div class="testimonial-author">
-                                <img src="images/sara.jpg" alt="Family Customer" class="rounded-circle">
+                                <img src="images/profile_pic.png" alt="Family Customer" class="rounded-circle">
                                 <div class="author-info">
                                     <h5>Lilian T</h5>
                                     <span>Family Package</span>
@@ -389,12 +326,12 @@
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                             </div>
-                            <p class="testimonial-text">"Our business depends on reliable internet. FastNetUG's business package has been a game-changer with 99% uptime and lightning-fast speeds."</p>
+                            <p class="testimonial-text">"Our business depends on reliable internet.The business package has been a game-changer with 99% uptime and lightning-fast speeds."</p>
                             <div class="testimonial-author">
                                 <img src="images/profile_pic.png" alt="Business Customer" class="rounded-circle">
                                 <div class="author-info">
-                                    <h5>Operations Manager</h5>
-                                    <span>Nabisunsa savings sacco</span>
+                                    <h5>IT Officer</h5>
+                                    <span>butabika Hospital</span>
                                 </div>
                             </div>
                         </div>
@@ -416,11 +353,11 @@
                     <p class="cta-subtitle">Join thousands of satisfied customers enjoying fast, reliable internet across Kampala. Get connected today!</p>
                 </div>
                 <div class="col-lg-5 d-flex flex-column flex-sm-row justify-content-center justify-content-lg-end gap-3">
-                    <a href="tel:0744766410" class="btn btn-light btn-lg" title="Call Us">
+                    <a href="tel:0773134650" class="btn btn-light btn-lg" title="Call Us">
                         <i class="fas fa-phone-alt"></i>
                         <span>Call Now</span>
                     </a>
-                    <a href="https://wa.me/256744766410" class="btn btn-success btn-lg" title="Chat on WhatsApp" target="_blank">
+                    <a href="https://wa.me/256709508211" class="btn btn-success btn-lg" title="Chat on WhatsApp" target="_blank">
                         <i class="fab fa-whatsapp"></i>
                         <span>WhatsApp</span>
                     </a>
@@ -436,7 +373,7 @@
                 <div class="col-md-3">
                     <div class="footer-info">
                         <div class="footer-logo mb-3">
-                            <h3>FastNetUG <i class="fas fa-wifi"></i></h3>
+                            <h3>TemboNet <i class="fas fa-wifi"></i></h3>
                         </div>
                         <p>Follow us on all our socials</p>
                         <div class="social-links d-flex justify-content-center justify-content-md-start">
@@ -467,7 +404,8 @@
                             <li><a href="#">WiFi Packages</a></li>
                             <li><a href="pages/contact.php">Installations</a></li>
                             <li><a href="pages/contact.php">Web development</a></li>
-                            <li><a href="pages/contact.php">Telecom services</a></li>
+                             <li><a href="pages/contact.php">Internship</a></li>
+                            <li><a href="pages/coverage.php">Telecom services</a></li>
                         </ul>
                     </div>
                 </div>
@@ -475,9 +413,9 @@
                 <div class="col-md-3">
                     <div class="footer-contact">
                         <h4>Contact Info</h4>
-                        <p><i class="fas fa-map-marker-alt"></i> Nabisunsa Close<br>Banda, Kampala</p>
-                        <p><i class="fas fa-phone"></i> +256 744 766 410</p>
-                        <p><i class="fas fa-envelope"></i> info@fastnetug.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Kampala<br>Uganda</p>
+                        <p><i class="fas fa-phone"></i> +256 773 134 650</p>
+                        <p><i class="fas fa-envelope"></i> tembonet@katsgroup.com</p>
                     </div>
                 </div>
             </div>
@@ -487,7 +425,7 @@
             <div class="container">
                 <div class="row align-items-center justify-content-between text-center text-md-start">
                     <div class="col-md-6">
-                        <p class="copyright">© 2025 FastNetUG. All Rights Reserved.</p>
+                        <p class="copyright">© 2025 TemboNet. All Rights Reserved.</p>
                     </div>
 
                     <div class="col-md-6 text-md-end mt-3 mt-md-0">
@@ -542,10 +480,10 @@
                         <div class="mb-3">
                             <select class="form-select" id="customerLocation" required>
                                 <option value="">Select your location</option>
-                                <option value="Makerere">Namuli Hostel</option>
-                                <option value="Wandegeya">Herman Hostel</option>
-                                <option value="Kikoni">Kasalita Hostel</option>
-                                <option value="Ntinda">Nabisunsa Close</option>
+                                <option value="Mutungo">Kampala Road</option>
+                                <option value="Mutungo">Nakawa Divison</option>
+                                <option value="Kikoni">Black street</option>
+                                <option value="Ntinda">Mutungo</option>
                                 <option value="Najera">Other</option>
                             </select>
                         </div>
@@ -567,7 +505,7 @@
         <a href="#" class="float-btn speed-test-btn" data-bs-toggle="modal" data-bs-target="#speedTestModal" title="Test Speed">
             <i class="fas fa-tachometer-alt"></i>
         </a>
-        <a href="https://wa.me/256744766410" class="float-btn whatsapp-btn" title="WhatsApp" target="_blank">
+        <a href="https://wa.me/256709508211" class="float-btn whatsapp-btn" title="WhatsApp" target="_blank">
             <i class="fab fa-whatsapp"></i>
         </a>
     </div>

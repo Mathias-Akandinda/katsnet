@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - FastNetUG</title>
+    <title>Contact Us - Kats Net</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
@@ -23,7 +23,7 @@
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
             <a class="navbar-brand" href="index.html">
-                <img src="../images/FastNetUGbg.png" alt="FastNetUG Logo" class="logo-text">
+                <img src="../images/KatsL.png" alt="Tembo Net" class="logo-text">
                 <!-- <span class="logo-text">FastNetUG</span> <i class="fas fa-wifi wifi-animation"></i> -->
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -78,7 +78,7 @@
                             <i class="fas fa-map-marker-alt fa-3x text-primary"></i>
                         </div>
                         <h3>Our Location</h3>
-                        <p>Nabisunsa Close<br>Banda, Nakawa Division<br>Kampala, Uganda</p>
+                        <p>Mutungo<br><br>Kampala, Uganda</p>
                         <a href="https://maps.google.com" target="_blank" class="btn btn-outline-primary mt-2">Get Directions</a>
                     </div>
                 </div>
@@ -88,8 +88,8 @@
                             <i class="fas fa-envelope fa-3x text-primary"></i>
                         </div>
                         <h3>Email Us</h3>
-                        <p>General Inquiries:<br><a href="mailto:info@fastnetug.com">info@fastnetug.com</a></p>
-                        <p>Technical Support:<br><a href="mailto:support@fastnetug.com">support@fastnetug.com</a></p>
+                        <p>General Inquiries:<br><a href="mailto:info@fastnetug.com">info@katsgroup.com</a></p>
+                        <p>Technical Support:<br><a href="mailto:support@fastnetug.com">support@katsgroup.com</a></p>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -98,8 +98,8 @@
                             <i class="fas fa-phone-alt fa-3x text-primary"></i>
                         </div>
                         <h3>Call Us</h3>
-                        <p>Office: +256 744 - 766 - 410</p>
-                        <p>Customer Service: +256 744 - 766 - 410</p>
+                        <p>Office: +256 773 - 134 - 650</p>
+                        <p>Customer Service: +256 709 - 508 - 211</p>
                         <p>Mon-Fri: 9:00 AM - 5:00 PM</p>
                     </div>
                 </div>
@@ -179,7 +179,7 @@
                         <h2 class="mb-4" style="text-align: center;">Find Us</h2>
                         <!-- Google Maps iframe - Replace with your actual map embed code -->
                         <div class="ratio ratio-4x3 rounded shadow-sm overflow-hidden">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.7473709418027!2d32.631307072863564!3d0.34169299965496724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177db9001473c987%3A0x6f3e93f5084de1b0!2sBanda%20Nabisunsa!5e0!3m2!1sen!2sug!4v1744117366299!5m2!1sen!2sug" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31918.127411278652!2d32.50232524123312!3d0.29363109652061037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177da33b08b09e49%3A0x3b0caec1cd877b39!2sNateete%2C%20Kampala!5e0!3m2!1sen!2sug!4v1755182530507!5m2!1sen!2sug" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                         <div class="business-hours mt-4 p-3 rounded shadow-sm">
                             <h4><i class="far fa-clock me-2"></i>Business Hours</h4>
@@ -227,7 +227,7 @@
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#contactFAQ">
                                 <div class="accordion-body">
-                                    Our network currently covers Nabisunsa, Banda, Ntinda, Kibuli, and surrounding areas within a 25km radius of Kampala. We're constantly expanding our coverage area.
+                                    Our network currently covers Mutungo, Butabika, Mukito, Nakawa and surrounding areas within a 25km radius of Kampala. We're constantly expanding our coverage area.
                                 </div>
                             </div>
                         </div>
@@ -251,7 +251,7 @@
                             </h2>
                             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#contactFAQ">
                                 <div class="accordion-body">
-                                    We offer Daily (1,000 UGX), Weekly (6,000 UGX), Monthly (20,000 UGX), and Semester (50,000 UGX) packages. We also have Family bundles and custom Business packages with dedicated bandwidth and priority support.
+                                    We offer Daily (1,000 UGX), Weekly (6,000 UGX), Monthly (22,000 UGX), and Silver (50,000 UGX) packages. We also have Family bundles and custom Business packages with dedicated bandwidth and priority support.
                                 </div>
                             </div>
                         </div>
@@ -261,81 +261,77 @@
         </div>
     </section>
 
-    <!-- Footer -->
+    <Footer -->
     <footer class="footer">
         <div class="container">
-            <div class="row">
-                <div class="col-md-3 text-center">
+            <div class="row text-center text-md-start gy-4">
+                <div class="col-md-3">
                     <div class="footer-info">
                         <div class="footer-logo mb-3">
-                            <h3>FastNetUG <i class="fas fa-wifi"></i></h3>
+                            <h3>TemboNet <i class="fas fa-wifi"></i></h3>
                         </div>
-                        <p>Your trusted partner for fast, reliable WiFi solutions across Kampala and beyond.</p>
-                        <div class="social-links">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <p>Follow us on all our socials</p>
+                        <div class="social-links d-flex justify-content-center justify-content-md-start">
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                            <a href=""><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-3 text-center">
+                <div class="col-md-3">
                     <div class="footer-links">
                         <h4>Quick Links</h4>
                         <ul>
-                            <li><a href="../index.php">Home</a></li>
-                            <li><a href="about.php">About Us</a></li>
-                            <li><a href="coverage.php">Coverage Areas</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="reviews.php">Reviews</a></li>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="pages/about.php">About Us</a></li>
+                            <li><a href="pages/coverage.php">Coverage Areas</a></li>
+                            <li><a href="pages/contact.php">Contact Us</a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-3 text-center">
+
+                <div class="col-md-3">
                     <div class="footer-links">
-                        <h4>WiFi Services</h4>
+                        <h4>Other Services</h4>
                         <ul>
-                            <li><a href="../index.php#packages">WiFi Packages</a></li>
-                            <li><a href="contact.php">Installation Services</a></li>
-                            <li><a href="contact.php">Technical Support</a></li>
-                            <li><a href="contact.php">Business Solutions</a></li>
+                            <li><a href="#">WiFi Packages</a></li>
+                            <li><a href="pages/contact.php">Installations</a></li>
+                            <li><a href="pages/contact.php">Web development</a></li>
+                             <li><a href="pages/contact.php">Internship</a></li>
+                            <li><a href="pages/contact.php">Telecom services</a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-3 text-center">
-                    <h5 class="footer-links">Newsletter</h5>
-                    <p>Subscribe to our newsletter for WiFi updates, promotions, and network announcements.</p>
-                    <form class="newsletter-form">
-                        <div class="input-group">
-                            <input type="email" class="form-control" placeholder="Your Email">
-                            <button class="btn btn-primary" type="submit">Subscribe</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <div class="container">
-                <div class="row d-flex align-items-center justify-content-between">
-                    <div class="col-md-5 text-md-start text-center">
-                        <p class="copyright">© 2025 FastNetUG. All Rights Reserved.</p>
-                    </div>
-                    <div class="col-md-3 text-md-center text-center">
-                        <p class="copyright">
-                            Developed by <a href="https://namurindaalex.github.io/portfolio/" target="_blank" class="developer-link">namtechnologies.com</a>
-                        </p>
-                    </div>
-                    <div class="col-md-3 text-md-end text-center">
-                        <div class="footer-links-bottom">
-                            <a href="">Privacy Policy</a>
-                            <a href="">Terms of Service</a>
-                        </div>
+
+                <div class="col-md-3">
+                    <div class="footer-contact">
+                        <h4>Contact Info</h4>
+                        <p><i class="fas fa-map-marker-alt"></i> Kampala<br>Uganda</p>
+                        <p><i class="fas fa-phone"></i> +256 773 134 650</p>
+                        <p><i class="fas fa-envelope"></i> tembonet@katsgroup.com</p>
                     </div>
                 </div>
             </div>
         </div>
 
+        <div class="footer-bottom mt-5">
+            <div class="container">
+                <div class="row align-items-center justify-content-between text-center text-md-start">
+                    <div class="col-md-6">
+                        <p class="copyright">© 2025 TemboNet. All Rights Reserved.</p>
+                    </div>
+
+                    <div class="col-md-6 text-md-end mt-3 mt-md-0">
+                        <div class="footer-links-bottom">
+                            <a href="#">Privacy Policy</a>
+                            <a href="#">Terms of Service</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
 
     <!-- Back to Top Button -->

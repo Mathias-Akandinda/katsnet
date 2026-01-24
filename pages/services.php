@@ -652,79 +652,77 @@
         </div>
     </section>
 
-    <!-- Footer -->
+    <!--  Footer -->
     <footer class="footer">
         <div class="container">
-            <div class="row">
-                <div class="col-md-3 text-center">
+            <div class="row text-center text-md-start gy-4">
+                <div class="col-md-3">
                     <div class="footer-info">
-                        <img src="../images/logo.png" alt="Logo" class="footer-logo mb-3">
-                        <p>Your trusted partner for real estate, air ticket booking, visa consultation, and more.</p>
-                        <div class="social-links">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <div class="footer-logo mb-3">
+                            <h3>TemboNet <i class="fas fa-wifi"></i></h3>
+                        </div>
+                        <p>Follow us on all our socials</p>
+                        <div class="social-links d-flex justify-content-center justify-content-md-start">
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                            <a href=""><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-3 text-center">
+                <div class="col-md-3">
                     <div class="footer-links">
                         <h4>Quick Links</h4>
                         <ul>
-                            <li><a href="../index.php">Home</a></li>
-                            <li><a href="about.php">About Us</a></li>
-                            <li><a href="../index.php#services">Services</a></li>
-                            <li><a href="contact.php">Contact Us</a></li>
-                            <li><a href="reviews.php">Reviews</a></li>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="pages/about.php">About Us</a></li>
+                            <li><a href="pages/coverage.php">Coverage Areas</a></li>
+                            <li><a href="pages/contact.php">Contact Us</a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-3 text-center">
+
+                <div class="col-md-3">
                     <div class="footer-links">
-                        <h4>Our Services</h4>
+                        <h4>Other Services</h4>
                         <ul>
-                            <li><a href="#">Real Estate</a></li>
-                            <li><a href="airticketbooking.php">Air Ticket Booking</a></li>
-                            <li><a href="consultation.php">Visa Consultation</a></li>
+                            <li><a href="#">WiFi Packages</a></li>
+                            <li><a href="pages/contact.php">Installations</a></li>
+                            <li><a href="pages/contact.php">Web development</a></li>
+                             <li><a href="pages/contact.php">Internship</a></li>
+                            <li><a href="pages/contact.php">Telecom services</a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-3 text-center">
+
+                <div class="col-md-3">
                     <div class="footer-contact">
-                        <h4>Contact Us</h4>
-                        <p>
-                            <i class="fas fa-map-marker-alt"></i> 123 Nabisunsa, Jinja Road<br>
-                            Kampala, Uganda<br>
-                            <i class="fas fa-phone"></i>+256 744 - 766 - 410<br>
-                            <i class="fas fa-envelope"></i> info@ttbusinesssolution.com
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <div class="container">
-                <div class="row d-flex align-items-center justify-content-between">
-                    <div class="col-md-5 text-md-start text-center">
-                        <p class="copyright">© 2025 T&T Business Solution. All Rights Reserved.</p>
-                    </div>
-                    <div class="col-md-3 text-md-center text-center">
-                        <p class="copyright">
-                            Developed by <a href="https://namurindaalex.github.io/portfolio/" target="_blank" class="developer-link">namtechnologies.com</a>
-                        </p>
-                    </div>
-                    <div class="col-md-3 text-md-end text-center">
-                        <div class="footer-links-bottom">
-                            <a href="">Privacy Policy</a>
-                            <a href="">Terms of Service</a>
-                        </div>
+                        <h4>Contact Info</h4>
+                        <p><i class="fas fa-map-marker-alt"></i> Kampala<br>Uganda</p>
+                        <p><i class="fas fa-phone"></i> +256 773 134 650</p>
+                        <p><i class="fas fa-envelope"></i> tembonet@katsgroup.com</p>
                     </div>
                 </div>
             </div>
         </div>
 
+        <div class="footer-bottom mt-5">
+            <div class="container">
+                <div class="row align-items-center justify-content-between text-center text-md-start">
+                    <div class="col-md-6">
+                        <p class="copyright">© 2025 TemboNet. All Rights Reserved.</p>
+                    </div>
+
+                    <div class="col-md-6 text-md-end mt-3 mt-md-0">
+                        <div class="footer-links-bottom">
+                            <a href="#">Privacy Policy</a>
+                            <a href="#">Terms of Service</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
 
 

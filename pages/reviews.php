@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Client Reviews - FastNetUG</title>
+    <title>Client Reviews - Tembo Net</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome for icons -->
@@ -22,7 +22,7 @@
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
             <a class="navbar-brand" href="../index.php">
-                <img src="../images/FastNetUGbg.png" alt="FastNetUG Logo" class="logo-text">
+                <img src="../images/Tembonemt.png" alt="Tembo Net" class="logo-text">
                 <!-- <span class="logo-text">FastNetUG</span> <i class="fas fa-wifi wifi-animation"></i> -->
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -208,17 +208,17 @@
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
                                 </div>
-                                <div class="review-date">May 15, 2025</div>
+                                <div class="review-date">November 15, 2025</div>
                             </div>
                         </div>
                         <div class="review-content">
-                            <p>"FastNetUG has been a game-changer for my studies! The connection is super fast and stable - I can stream lectures, download research materials, and attend online classes without any interruptions."</p>
+                            <p>"Tembo Net has been a game-changer for my studies! The connection is super fast and stable - I can stream lectures, download research materials, and attend online classes without any interruptions."</p>
                             <p>"The pricing is very student-friendly, and the support team is always ready to help. I've recommended it to all my classmates!"</p>
                         </div>
                         <div class="review-response">
-                            <h5><i class="fas fa-reply"></i> Response from FastNetUG</h5>
+                            <h5><i class="fas fa-reply"></i> Response from Tembo Net</h5>
                             <p>Thank you Sarah! We're thrilled to support your academic journey. Keep excelling in your studies!</p>
-                            <div class="response-author">— FastNetUG Team</div>
+                            <div class="response-author">— Tembo Net Team</div>
                         </div>
                     </div>
                 </div>
@@ -230,7 +230,7 @@
                             </div>
                             <div class="reviewer-info">
                                 <h4>James Okello</h4>
-                                <div class="service-badge visa">Kasalita Hostel</div>
+                                <div class="service-badge visa">Mutungo</div>
                             </div>
                             <div class="review-rating">
                                 <div class="rating-stars">
@@ -240,17 +240,17 @@
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
                                 </div>
-                                <div class="review-date">June 2, 2025</div>
+                                <div class="review-date">December 2, 2025</div>
                             </div>
                         </div>
                         <div class="review-content">
-                            <p>"I've been using FastNetUG for 6 months now and I'm impressed with the consistency. Whether it's late night research or weekend Netflix, the connection never disappoints."</p>
+                            <p>"I've been using Tembo Net for 2 months now and I'm impressed with the consistency. Whether it's late night research or weekend Netflix, the connection never disappoints."</p>
                             <p>"The registration process was simple, and the agents are very professional. Worth every shilling!"</p>
                         </div>
                         <div class="review-response">
                             <h5><i class="fas fa-reply"></i> Response from FastNetUG</h5>
                             <p>Thanks James! We're committed to providing reliable internet for both your studies and entertainment. Enjoy your streaming!</p>
-                            <div class="response-author">— FastNetUG Team</div>
+                            <div class="response-author">— Tembo Net Team</div>
                         </div>
                     </div>
                 </div>
@@ -433,14 +433,14 @@
         </div>
     </section>
 
-    <!-- Footer -->
+    <!--  Footer -->
     <footer class="footer">
         <div class="container">
             <div class="row text-center text-md-start gy-4">
                 <div class="col-md-3">
                     <div class="footer-info">
                         <div class="footer-logo mb-3">
-                            <h3>FastNetUG <i class="fas fa-wifi"></i></h3>
+                            <h3>TemboNet <i class="fas fa-wifi"></i></h3>
                         </div>
                         <p>Follow us on all our socials</p>
                         <div class="social-links d-flex justify-content-center justify-content-md-start">
@@ -471,6 +471,7 @@
                             <li><a href="#">WiFi Packages</a></li>
                             <li><a href="pages/contact.php">Installations</a></li>
                             <li><a href="pages/contact.php">Web development</a></li>
+                             <li><a href="pages/contact.php">Internship</a></li>
                             <li><a href="pages/contact.php">Telecom services</a></li>
                         </ul>
                     </div>
@@ -479,9 +480,9 @@
                 <div class="col-md-3">
                     <div class="footer-contact">
                         <h4>Contact Info</h4>
-                        <p><i class="fas fa-map-marker-alt"></i> Nabisunsa Close<br>Banda, Kampala</p>
-                        <p><i class="fas fa-phone"></i> +256 744 766 410</p>
-                        <p><i class="fas fa-envelope"></i> info@fastnetug.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Kampala<br>Uganda</p>
+                        <p><i class="fas fa-phone"></i> +256 773 134 650</p>
+                        <p><i class="fas fa-envelope"></i> tembonet@katsgroup.com</p>
                     </div>
                 </div>
             </div>
@@ -491,7 +492,7 @@
             <div class="container">
                 <div class="row align-items-center justify-content-between text-center text-md-start">
                     <div class="col-md-6">
-                        <p class="copyright">© 2025 FastNetUG. All Rights Reserved.</p>
+                        <p class="copyright">© 2025 TemboNet. All Rights Reserved.</p>
                     </div>
 
                     <div class="col-md-6 text-md-end mt-3 mt-md-0">
