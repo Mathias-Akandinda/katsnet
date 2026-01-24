@@ -175,7 +175,7 @@
                             <li><i class="fas fa-check text-success"></i> Up to 2 devices</li>
                             <li><i class="fas fa-check text-success"></i> Best value for students</li>
                         </ul>
-                        <button class="btn btn-outline-primary w-100">Choose Plan</button>
+                        <button class="btn btn-outline-primary w-100">Choose OUr Plan</button>
                     </div>
                 </div>
             </div>
