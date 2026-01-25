@@ -442,7 +442,7 @@
         <div class="container header-container">
             <div class="logo">
                 <i class="fas fa-wifi logo-icon"></i>
-                <h1>Tembo Net Group</h1>
+                <h1>Tembo Net</h1>
             </div>
             
             <div class="mobile-toggle" id="mobileToggle">
@@ -464,7 +464,7 @@
         <div class="container">
             <h2>Advanced WiFi Billing System for Uganda</h2>
             <p>Streamline your WiFi business with our comprehensive internet billing platform. Manage packages, vouchers, users, payments, and integrate seamlessly with MikroTik routers.</p>
-            <a href="#dashboard" class="btn btn-accent">Explore Dashboard</a>
+            <a href="#dashboard" class="btn btn-accent">Request Demo</a>
         </div>
     </section>
 
@@ -571,14 +571,14 @@
                 <h3>Contact Us</h3>
                 <ul>
                     <li><i class="fas fa-map-marker-alt"></i> Kampala, Uganda</li>
-                    <li><i class="fas fa-phone"></i> +256 700 123 456</li>
-                    <li><i class="fas fa-envelope"></i> info@tembonetgroup.com</li>
+                    <li><i class="fas fa-phone"></i> +256 709 508 211</li>
+                    <li><i class="fas fa-envelope"></i> info@tembonet.com</li>
                 </ul>
             </div>
         </div>
         
         <div class="copyright">
-            <p>&copy; 2023 Tembo Net Group. All rights reserved. | Internet Billing System for WiFi Business</p>
+            <p>&copy; 2025 Tembo Net . All rights reserved. | Internet Billing System for WiFi Business</p>
         </div>
     </footer>
 

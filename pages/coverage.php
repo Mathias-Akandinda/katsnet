@@ -163,18 +163,18 @@
                 <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="300">
                     <div class="area-card">
                         <div class="area-header">
-                            <h3><i class="fas fa-map-marker-alt"></i> Kito</h3>
+                            <h3><i class="fas fa-map-marker-alt"></i> Kabale</h3>
                             <span class="coverage-badge expanding">Expanding</span>
                         </div>
                         <div class="area-content">
-                            <p>Growing coverage in Mukito with new hotspots and improved infrastructure.</p>
+                            <p>Future coverage in Kabale Region with new hotspots and improved infrastructure.</p>
                             <div class="area-features">
                                 <span class="feature-tag">New Hotspots</span>
                                 <span class="feature-tag">Growing Network</span>
                                 <span class="feature-tag">Business Plans</span>
                             </div>
                             <div class="area-contact">
-                                <p><strong>Area Contact:</strong> Viola Busingye</p>
+                                <p><strong>Area Contact:</strong> Happiness Byaruhanga</p>
                                 <div class="contact-buttons">
                                     <a href="tel:0773134650" class="btn btn-sm btn-primary">
                                         <i class="fas fa-phone"></i> Call
@@ -192,11 +192,11 @@
                 <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="400">
                     <div class="area-card">
                         <div class="area-header">
-                            <h3><i class="fas fa-map-marker-alt"></i> Mutungo</h3>
+                            <h3><i class="fas fa-map-marker-alt"></i> Kito</h3>
                             <span class="coverage-badge">Good Coverage</span>
                         </div>
                         <div class="area-content">
-                            <p>Reliable coverage in Mutungo area with focus on educational institutions.</p>
+                            <p>Reliable coverage in Mukito area with focus on educational institutions.</p>
                             <div class="area-features">
                                 <span class="feature-tag">Business Areas</span>
                                 <span class="feature-tag">Family Packages</span>

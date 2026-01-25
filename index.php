@@ -73,8 +73,8 @@
                  role="button" data-bs-toggle="dropdown">Kats Group<i class="fas fa-caret-down"></i></a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item active" href="pages/Indextembo.php">Tembo Net</a></li>
-                            <li><a class="dropdown-item" href="airticketbooking.php">Kats Enterprise</a></li>
-                            <li><a class="dropdown-item" href="consultation.php">Home of kitchen Ware</a></li>
+                            <li><a class="dropdown-item" href="https://katsenterprise4.wordpress.com/">Kats Enterprise</a></li>
+                            <li><a class="dropdown-item" href="#">Home of kitchen Ware</a></li>
                             <li><a class="dropdown-item" href="pages/safetripindex.php">SafeTrip</a></li>
                         </ul>
                 <li class="nav-item"><a class="nav-link" href="pages/reviews.php">Reviews</a></li>
@@ -175,7 +175,7 @@
                             <li><i class="fas fa-check text-success"></i> Up to 2 devices</li>
                             <li><i class="fas fa-check text-success"></i> Best value for students</li>
                         </ul>
-                        <button class="btn btn-outline-primary w-100">Choose OUr Plan</button>
+                        <button class="btn btn-outline-primary w-100">Choose Plan</button>
                     </div>
                 </div>
             </div>
